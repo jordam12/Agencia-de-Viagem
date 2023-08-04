@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agência de Viagens JD</title>
+  <!-- Link para o Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Link para o seu arquivo de CSS personalizado -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Barra de navegação -->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Logo ou Título (opcional) -->
+    <a class="navbar-brand" href="#">Agência de Viagens JD</a>
+
+    <!-- Botão de colapso para dispositivos móveis -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Itens do menu -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="destino.html">Destinos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="promocoes.html">Promoções</a>
+        </li>
+        <li class="nav-item">
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Banner de Destaque -->
+  <div class="jumbotron text-center">
+    <h1>Bem-vindo à Agência de Viagens JD</h1>
+    <p>Descubra os destinos mais incríveis do mundo conosco!</p>
+  </div>
+
+  <!-- Seção de Destinos -->
+  <section class="container mt-4">
+    <h2 class="text-center">Destinos Populares</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="Imagem/imageRJ.jpg" class="card-img-top" alt="Destino 1">
+          <div class="card-body">
+            <h5 class="card-title">Rio de Janeiro</h5>
+            <p class="card-text">O Rio de Janeiro é uma das cidades...</p>
+            <a href="destino.html" class="btn btn-primary">Ver Mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="Imagem/imageFO.jpg" class="card-img-top" alt="Destino 2">
+          <div class="card-body">
+            <h5 class="card-title">Fortaleza</h5>
+            <p class="card-text">Fortaleza é uma cidade...</p>
+            <a href="destino.html" class="btn btn-primary">Ver Mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="Imagem/imageBA.jpg" class="card-img-top" alt="Destino 3">
+          <div class="card-body">
+            <h5 class="card-title">Salvador</h5>
+            <p class="card-text">Salvador é a capital do estado da Bahia...</p>
+            <a href="destino.html" class="btn btn-primary">Ver Mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Pacotes de Viagem -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Promoções de Pacotes de Viagem</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <img src="Imagem/imageRJ.jpg" class="card-img-top" alt="Pacote 1">
+            <div class="card-body">
+              <h5 class="card-title">Rio de Janeiro</h5>
+              <p class="card-text">✈︎ Saindo de São Paulo.</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">✔ Aéreo ida e volta </li>
+                <li class="list-group-item">✔ Hospedagem</li>
+                <li class="list-group-item">R$1.000,00</li>
+              </ul>
+              <a href="promocoes.html" class="btn btn-primary">Reservar Agora</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <img src="Imagem/imageFO.jpg" class="card-img-top" alt="Pacote 2">
+            <div class="card-body">
+              <h5 class="card-title">Fortaleza</h5>
+              <p class="card-text">✈︎ Saindo do Rio de Janeiro.</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">✔ Aéreo ida e volta </li>
+                <li class="list-group-item">✔ Hospedagem</li>
+                <li class="list-group-item">R$1.500,00</li>
+              </ul>
+              <a href="promocoes.html" class="btn btn-primary">Reservar Agora</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-center text-white py-3">
+    <p>Agência de Viagens &copy; 2023. Todos os direitos reservados a JD.</p>
+  </footer>
+
+  <!-- Scripts do Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
